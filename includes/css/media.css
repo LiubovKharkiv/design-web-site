@@ -1,0 +1,650 @@
+@media only screen and (min-width: 901px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+  .container {
+    min-width: 560px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+  .header-nav-brand {
+    width: 20%;
+  }
+
+  .header-nav-brand a {
+    font-size: 2rem;
+  }
+
+  .header-nav-list {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .header-nav-list-link {
+    font-size: 1.5rem;
+  }
+
+  .header-nav-btn {
+    display: none;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+  .intro-wrap {
+    width: 75%;
+    height: 60%;
+  }
+
+  .intro-slogan {
+    font-size: 4rem;
+  }
+
+  .intro-desc {
+    font-size: 3rem;
+  }
+
+  .intro-desc-txt{
+    font-size: 2rem;
+  }
+
+  .intro-btn {
+    height: 10%;
+    width: 20%;
+    margin-bottom: 3%;
+  }
+  
+
+  /*----------ABOUT ME --------------------------------------------------*/
+  .about-desc-wrap {
+    height: 25%;
+  }
+
+  .about-container, .services-container, social-container {
+    height: 100%;
+  }
+
+  .about-desc {
+    flex-direction: column;
+    height: 70%;
+  }
+  
+  .about-desc-item {
+    width: 100%;
+    padding: 0;
+  }
+  .about-desc-item:first-of-type {
+    margin-top: 2%;
+    font-size: 2.3rem;
+    height: 100%;
+  }
+  
+  .about-desc-item:last-of-type {
+    display: none;
+  }
+  .about-services-wrapper {
+    height: 60%;
+  }
+  
+  .about-services-row {
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-services-item {
+    width: 45%;
+    height: 45%;
+    align-items: center;
+    margin: 0 1%;
+  }
+
+  .about-services-title {
+    font-size: 1.6rem;
+  }
+
+  .about-services-paragraph {
+    font-size: 1.4rem;
+  }
+
+  .about-social-wrap {
+    height: 15%;
+  }
+
+  .about-social-desc-txt {
+    display: none;
+  }
+
+  .about-social-list {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /*portfolio----------------------------------------------------------------------------------------------*/
+
+  .portfolio-desc-title {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .portfolio-btn {
+    width: 25%;
+    height: 75%;
+  }
+  .portfolio-btn-lin {
+    font-size: 1.3rem;
+  }
+  .portfolio-grid {
+    grid-template-areas: 
+        'img-1 img-1 img-2 img-2'
+        'img-3 img-3 img-2 img-2'
+        'img-4 img-4 img-2 img-2'
+        'img-5 img-5 img-6 img-6'
+    ;
+  }
+  
+  .portfolio-grid a {
+    height: 100%;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-2 {
+    min-height: 70%;
+  }
+
+
+
+/*--------------------------CLIENTS--------------------------------------------------*/
+
+.clients-desc {
+  font-size: 2rem;
+}
+
+.clients-testomonials {
+  height: 50%;
+}
+
+.clients-logo-line {
+  height: 25%;
+}
+
+.clients-section-logo-img:nth-of-type(even) {
+  display: none;
+}
+
+.clients-section-logo-img:nth-of-type(odd) {
+  display: block;
+  height: 70%;
+  width: 70%;
+}
+
+/*--------------------------------------------BLOG------------------------------------------------------*/
+.blog-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  grid-template-areas:
+    'blog-img-1 blog-img-1 blog-img-1 blog-img-1'
+    'blog-img-2 blog-img-2 blog-img-3 blog-img-3'
+    'blog-img-2 blog-img-2 blog-img-3 blog-img-3'
+    'blog-img-4 blog-img-4 blog-img-5 blog-img-5'
+    'blog-img-6 blog-img-6 blog-img-7 blog-img-7'
+    ;
+}
+
+.blog-grid a {
+  height: 10rem;
+  background-size: cover;
+  
+}
+
+.blog-img-1 {
+  min-height: 10rem;
+}
+
+.blog-img-2, .blog-img-3 {
+  min-height: 13rem;
+}
+
+.blog-img-4,.blog-img-5 {
+  min-height: 10rem;
+  
+}
+.blog-img-6,.blog-img-7 {
+  min-height: 10rem;
+}
+
+.blog-item-one-title {
+  font-size: 3rem;
+}
+
+.blog-item-one-txt {
+  font-size: 2rem;
+}
+
+.blog-item-date {
+  font-size: 1.5rem;
+}
+
+.blog-item-title {
+  font-size: 1.9rem;
+}
+
+.blog-item-two-txt {
+  display: none;
+}
+
+.blog-item-two-btn {
+  width: 35%;
+  height: 20%;
+}
+
+.blog-item-two-btn p {
+  font-size: 1rem;
+}
+
+.blog-item-three-txt {
+  font-size: 1.5rem;
+}
+
+.blog-item-five-desc {
+  text-align: center;
+}
+
+.blog-item-six-txt {
+  display: none;
+}
+
+
+/*------------------------------------------FOOTER=--------------------------------------------*/
+.contact-wrap-title {
+  font-size: 3rem;
+}
+
+.contact-wrap p,
+.contact-wrap a,
+.contact-wrap span
+ {
+  font-size: 1.5rem;
+}
+
+.form-textarea {
+  height: 40%;
+}
+
+}
+
+@media only screen and (max-width: 599px){
+
+  .container {
+    max-width: 560px;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  /*header-----------------------------------------------------------------------------*/
+  .header-nav {
+    justify-content: space-between;
+  }
+  .header-nav-brand {
+    width: 40%;
+  }
+  .header-nav-brand > a{
+      font-size: 3.5rem;
+  }
+  .header-nav-list, .header-nav-btn {
+    display: none;
+  }
+
+  .dropdown-tgl {
+    display: inline-block;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .intro-wrap {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+  }
+
+  .intro-slogan {
+    font-size: 4.5rem;
+  }
+
+  .intro-desc {
+    font-size: 2.5rem;
+  }
+
+  .intro-desc-txt{
+    display: none;
+  }
+
+  .intro-more-link {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+
+  .intro-btn {
+    height: 8%;
+    width: 30%;
+    margin-bottom: 5%;
+  }
+
+  .intro-btn {
+    align-self: center;
+  }
+
+/*----------ABOUT ME --------------------------------------------------*/
+.about-desc-wrap {
+  height: 25%;
+}
+
+.about-container, .services-container, social-container {
+  height: 100%;
+}
+
+.about-desc {
+  flex-direction: column;
+  height: 70%;
+}
+.about-desc-item:first-of-type {
+  margin-top: 2%;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.about-desc-item:last-of-type {
+  display: none;
+}
+.about-services-wrapper {
+  height: 60%;
+}
+
+.about-services-row {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-services-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  text-align: center;
+}
+
+.about-services-item img {
+  width: 75%;
+  height: 75%;
+}
+
+.about-services-title {
+  font-size: 1.6rem;
+}
+
+.about-services-paragraph {
+  display: none;
+}
+
+.about-social-wrap {
+  height: 15%;
+}
+
+.about-social-desc-txt {
+  display: none;
+}
+
+.about-social-list {
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+.portfolio-wrapper {
+  height: 100%;
+}
+
+.portfolio-desc-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.portfolio-desc-btn {
+  width: 20%;
+  height: 75%;
+  margin-bottom: 2%;
+
+}
+.portfolio-btn-link {
+  display: none;
+}
+.fa-eye {
+  display: inline-block;
+}
+
+.fa-eye {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+}
+.portfolio-grid {
+  gap: 2px;
+  overflow-y: visible;
+  grid-template-areas: 
+      'img-1 img-1 img-1 img-1'
+      'img-2 img-2 img-2 img-2'
+      'img-2 img-2 img-2 img-2'
+      'img-3 img-3 img-3 img-3'
+      'img-4 img-4 img-4 img-4'
+      'img-5 img-5 img-5 img-5'
+      'img-5 img-5 img-5 img-5'
+      'img-6 img-6 img-6 img-6'
+  ;
+}
+
+.portfolio-grid a {
+  height: 15rem;
+}
+
+.img-2 {
+  min-height:  30rem;
+  min-width: 5rem;
+}
+.img-5 {
+  min-width: 20rem;
+}
+
+/*-------------------------------------CLIENTS DESC -------------------------------------*/
+
+.clients-desc {
+  font-size: 2rem;
+}
+
+.testimony-txt {
+  font-size: 1.8rem;
+}
+
+.testimony-person-photo {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin-right: 3%;
+}
+
+.testimony-person-info-item:first-of-type {
+  font-size: 1.5rem;
+}
+
+.testimony-person-info-item:last-of-type {
+  font-size: 1.2rem;
+}
+
+
+.clients-logo-line {
+  height: 25%;
+}
+
+.clients-section-logo-img {
+  display: none;
+}
+
+.clients-section-logo-img:nth-of-type(odd) {
+  display: block;
+  height: 50%;
+  width: 50%;
+}
+
+/*-------------------------------------------------BLOG--------------------------------------------------*/
+.blog-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    'blog-img-1 blog-img-1 blog-img-1 blog-img-1'
+    'blog-img-2 blog-img-2 blog-img-2 blog-img-2'
+    'blog-img-3 blog-img-3 blog-img-3 blog-img-3'
+    'blog-img-4 blog-img-4 blog-img-4 blog-img-4'
+    'blog-img-5 blog-img-5 blog-img-5 blog-img-5'
+    'blog-img-6 blog-img-6 blog-img-6 blog-img-6'
+    'blog-img-7 blog-img-7 blog-img-7 blog-img-7'
+    ;
+}
+
+.blog-grid a {
+  height: 5rem;
+  max-height: 100%;
+}
+
+.blog-img-2 {
+  min-height: 7rem;
+}
+
+.blog-item-desc {
+  text-align: center;
+}
+
+.blog-item-one-title {
+  font-size: 3rem;
+}
+
+.blog-item-txt {
+  display: none;
+}
+
+.blog-item-date {
+  font-size: 1.2rem;
+}
+
+.blog-item-title {
+  font-size: 1.3rem;
+}
+
+.blog-item-two-txt {
+  display: none;
+}
+
+.blog-item-two-btn {
+  width: 20%;
+  height: 25%;
+  align-self: center;
+}
+
+.blog-item-two-btn p {
+  font-size: 0.5rem;
+}
+
+.blog-lines {
+  display: none;
+}
+
+.blog-item-three-txt {
+  font-size: 1.5rem;
+}
+
+.blog-item-five-img {
+  display: none;
+}
+
+
+/*------------------------------------------FOOTER=--------------------------------------------*/
+.contact-wrap-title {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.contact-wrap {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-wrap p,
+.contact-wrap a,
+.contact-wrap span
+ {
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  height: 60%;
+  width: 90%;
+  text-align: center;
+}
+
+.getin-touch-wrap {
+  height: 40%;
+  text-align: center;
+  width: 70%;
+}
+
+.contact-info-social-list {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  height: 70%;
+}
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-col-item {
+  width: 40%;
+}
+
+.form-col input {
+  font-size: 0.9rem;
+  padding-left: 0.5rem;
+}
+.form-textarea {
+  height: 40%;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.form-btn {
+  width: 40%;
+  height: 20%;
+  font-size: 1.2rem;
+}
+
+}
